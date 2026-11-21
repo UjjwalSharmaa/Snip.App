@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0F1115;
+  --color-cream: #F6F5F1;
+  --color-lime: #C6FF3D;
+  --color-slate: #6B7280;
+  --color-violet: #8B7FFF;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #0F1115;
+  color: #F6F5F1;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6B7280 #0F1115;
+}
